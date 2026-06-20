@@ -16,18 +16,18 @@ int main(){
 	double bank_balance;
 	int phone_number;
 	
-	printf("Enter your height:\n");
+	printf("Enter your height(in meters):");
 	scanf("%f", & height);
 	
-	printf("Enter your bank balance:\n");
+	printf("Enter your bank balance(KES):");
 	scanf("%lf", & bank_balance);
 	
-	printf("Enter your phone number:\n");
+	printf("Enter your phone number:");
 	scanf("%d", & phone_number);
 	
-	printf("your height is  %.2f\n", height);
-	printf("Your bank balance is %.2lf \n", bank_balance);
-	printf("Your phone number is %.2d\n", phone_number);
+	printf("Your height is: %.2f M\n", height);
+	printf("Your bank balance is:KES %.2lf \n", bank_balance);
+	printf("Your phone number is: %.2d\n", phone_number);
 	
 	return 0;
 }
