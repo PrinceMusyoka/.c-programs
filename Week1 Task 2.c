@@ -17,17 +17,17 @@ int main(){
 	int phone_number;
 	
 	printf("Enter your height:\n");
-	scanf("%height", & height);
+	scanf("%f", & height);
 	
 	printf("Enter your bank balance:\n");
-	scanf("%bank_balance", & bank_balance);
+	scanf("%lf", & bank_balance);
 	
 	printf("Enter your phone number:\n");
-	scanf("%phone_number", & phone_number);
+	scanf("%d", & phone_number);
 	
-	printf("The height is  %height \n", height);
-	printf("Your bank balance is %bank_balance \n", bank_balance);
-	printf("Your phone number is %phone_number \n", phone_number);
+	printf("your height is  %.2f\n", height);
+	printf("Your bank balance is %.2lf \n", bank_balance);
+	printf("Your phone number is %.2d\n", phone_number);
 	
 	return 0;
 }
