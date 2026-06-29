@@ -11,14 +11,14 @@ Version 1
 #include<stdio.h> //pre-processor directive ,printf() ,scanf()
 
 int main(){
-	
+	printf("Units offered this semester:\n");
 	//display units offered this semester
-	printf("structured programming!!\n");
-	printf("communication skills!!\n");
-	printf("health and wellness management!!\n");
-	printf("data ethics,privacy and governance!!\n");
-	printf("basic mathematics!!\n");
-	printf("digital literacy!!\n");
+	printf("1.Structured programming\n");
+	printf("2.Communication skills\n");
+	printf("3.Health and wellness management\n");
+	printf("4.Data ethics,privacy and governance\n");
+	printf("5.Basic mathematics\n");
+	printf("6.Digital literacy\n");
 	
 	return 0;
 }	
